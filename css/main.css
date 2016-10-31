@@ -1,7 +1,16 @@
 html {
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.3;
 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  vertical-align: middle;
 }
 
 form {
